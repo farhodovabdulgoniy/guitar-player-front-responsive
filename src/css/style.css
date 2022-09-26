@@ -708,6 +708,9 @@ html {
   .title {
     font-size: 50px;
   }
+  .title__hr_top {
+    bottom: 55px;
+  }
   .main-section {
     min-height: 400px;
   }
@@ -754,6 +757,19 @@ html {
   }
   .second-section__icons-item img {
     width: 38px;
+  }
+  .third-section {
+    min-height: 450px;
+  }
+  .third-section__right-text {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  .footer__container {
+    justify-content: center;
+  }
+  .footer__container img {
+    display: none;
   }
   .icons-item__text {
     font-size: 12px;
@@ -819,5 +835,47 @@ html {
 @media (max-width: 575px) {
   .container {
     width: 100%;
+  }
+  .icons__item {
+    width: 30px;
+    height: 30px;
+  }
+  .icons__item i {
+    font-size: 18px;
+  }
+  .title {
+    font-size: 45px;
+  }
+  .elipse {
+    top: 43px;
+    width: 130px;
+    height: 130px;
+  }
+  .elipse__subtract {
+    height: 100px;
+    width: 100px;
+  }
+  .main-section {
+    min-height: 350px;
+  }
+  .main-section__content-container {
+    min-height: 300px;
+  }
+  .main-section__second-elipse {
+    display: none;
+  }
+  .right-wrapper__text {
+    font-size: 12px;
+  }
+  .buttons__icon-btn img {
+    height: 45px;
+  }
+  .buttons__text {
+    font-size: 12px;
+  }
+  .buttons__main-btn {
+    height: 45px;
+    width: 135px;
+    font-size: 12px;
   }
 }/*# sourceMappingURL=style.css.map */

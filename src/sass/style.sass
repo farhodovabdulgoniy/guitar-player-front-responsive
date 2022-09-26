@@ -314,7 +314,6 @@ $color-orange: #F28B64
     &__title
         margin-bottom: 20px
 
-
 @media (max-width: 1199px)
 
     .container
@@ -363,7 +362,6 @@ $color-orange: #F28B64
         &__right-wrapper
             max-width: 450px
 
-
 @media (max-width: 991px)
 
     .main-section
@@ -402,7 +400,7 @@ $color-orange: #F28B64
     .buttons
         &__main-btn
             height: 50px
-            font-size: 14px 
+            font-size: 14px
             margin-right: 10px
             width: 160px
         &__icon-btn
@@ -427,7 +425,7 @@ $color-orange: #F28B64
         &__container
             padding-top: 20px
         &__title
-            margin-bottom: 25px        
+            margin-bottom: 25px
         &__second-elipse
             top: 225px
             left: -35px
@@ -481,13 +479,14 @@ $color-orange: #F28B64
         &__title
             margin-bottom: 10px
 
-
-    
 @media (max-width: 767px)
     .container
         width: 540px
     .title
         font-size: 50px
+        &__hr_top
+            bottom: 55px
+
     .main-section
         min-height: 400px
         &__content-container
@@ -499,11 +498,14 @@ $color-orange: #F28B64
             right: 50px
         &__second-elipse
             top: 320px
+
     .left-wrapper
         display: none
+
     .right-wrapper
         right: 0
         position: relative
+
     .cards-item
         width: 170px
         height: 170px
@@ -514,6 +516,7 @@ $color-orange: #F28B64
             font-size: 18px
             top: 67px
             right: -90px
+
     .second-section
         min-height: 360px
         &__first-elipse
@@ -523,6 +526,18 @@ $color-orange: #F28B64
         &__icons-item
             img
                 width: 38px
+
+    .third-section
+        min-height: 450px
+        &__right-text
+            font-size: 16px
+            margin-bottom: 20px
+
+    .footer
+        &__container
+            justify-content: center
+            img
+                display: none
     .icons-item
         &__text
             font-size: 12px
@@ -570,20 +585,49 @@ $color-orange: #F28B64
                 display: none
             &:nth-child(3)
                 transform: translateY(3px) rotate(45deg)
-                
+
     .nav-menu_active
-        right: 0              
-                
-
-
-
-
-
-
-
-
-
+        right: 0
 
 @media (max-width: 575px)
     .container
         width: 100%
+
+    .icons
+        &__item
+            width: 30px
+            height: 30px
+            i
+                font-size: 18px
+    .title
+        font-size: 45px
+    
+    .elipse
+        top: 43px
+        width: 130px
+        height: 130px
+        &__subtract
+            height: 100px
+            width: 100px
+
+    .main-section
+        min-height: 350px
+        &__content-container
+            min-height: 300px
+        &__second-elipse
+            display: none
+
+    .right-wrapper
+        &__text
+            font-size: 12px
+
+    .buttons
+        &__icon-btn
+            img
+                height: 45px
+        &__text
+            font-size: 12px
+        &__main-btn
+            height: 45px
+            width: 135px
+            font-size: 12px
